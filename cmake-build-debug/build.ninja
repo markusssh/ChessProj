@@ -63,13 +63,6 @@ build CMakeFiles/ChessProj.dir/src/Entities/Board.cpp.obj: CXX_COMPILER__ChessPr
   OBJECT_DIR = CMakeFiles\ChessProj.dir
   OBJECT_FILE_DIR = CMakeFiles\ChessProj.dir\src\Entities
 
-build CMakeFiles/ChessProj.dir/src/Entities/Tile.cpp.obj: CXX_COMPILER__ChessProj_unscanned_Debug C$:/Users/mrher/CLionProjects/ChessProj/src/Entities/Tile.cpp || cmake_object_order_depends_target_ChessProj
-  DEP_FILE = CMakeFiles\ChessProj.dir\src\Entities\Tile.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/mrher/CLionProjects/ChessProj/include
-  OBJECT_DIR = CMakeFiles\ChessProj.dir
-  OBJECT_FILE_DIR = CMakeFiles\ChessProj.dir\src\Entities
-
 build CMakeFiles/ChessProj.dir/src/Entities/Piece.cpp.obj: CXX_COMPILER__ChessProj_unscanned_Debug C$:/Users/mrher/CLionProjects/ChessProj/src/Entities/Piece.cpp || cmake_object_order_depends_target_ChessProj
   DEP_FILE = CMakeFiles\ChessProj.dir\src\Entities\Piece.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
@@ -85,7 +78,7 @@ build CMakeFiles/ChessProj.dir/src/Entities/Piece.cpp.obj: CXX_COMPILER__ChessPr
 #############################################
 # Link the executable ChessProj.exe
 
-build ChessProj.exe: CXX_EXECUTABLE_LINKER__ChessProj_Debug CMakeFiles/ChessProj.dir/src/main.cpp.obj CMakeFiles/ChessProj.dir/src/Entities/Board.cpp.obj CMakeFiles/ChessProj.dir/src/Entities/Tile.cpp.obj CMakeFiles/ChessProj.dir/src/Entities/Piece.cpp.obj
+build ChessProj.exe: CXX_EXECUTABLE_LINKER__ChessProj_Debug CMakeFiles/ChessProj.dir/src/main.cpp.obj CMakeFiles/ChessProj.dir/src/Entities/Board.cpp.obj CMakeFiles/ChessProj.dir/src/Entities/Piece.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ChessProj.dir

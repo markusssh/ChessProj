@@ -6,8 +6,6 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(ChessProj src/main.cpp
         src/Entities/Board.cpp
         include/ChessProj/Board.h
-        src/Entities/Tile.cpp
-        include/ChessProj/Tile.h
         src/Entities/Piece.cpp
         include/ChessProj/Piece.h
         src/Factories/PieceFactory.h)

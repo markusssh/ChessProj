@@ -1,0 +1,9 @@
+# ninja log v6
+5	699	7692239044214342	CMakeFiles/ChessProj.dir/src/main.cpp.obj	eb8c33894eb4226
+15	714	7692239044309532	CMakeFiles/ChessProj.dir/src/Entities/Piece.cpp.obj	e150e9d6a1828ff9
+4	718	7692239945626956	CMakeFiles/ChessProj.dir/src/Entities/Board.cpp.obj	a288a545ec8525a2
+719	961	7692239952763046	ChessProj.exe	141c09cdbffe65c6
+4	709	7692253516446805	CMakeFiles/ChessProj.dir/src/Entities/Board.cpp.obj	a288a545ec8525a2
+709	824	7692253523493317	ChessProj.exe	141c09cdbffe65c6
+4	482	7692253822195682	CMakeFiles/ChessProj.dir/src/main.cpp.obj	eb8c33894eb4226
+482	596	7692253826975755	ChessProj.exe	141c09cdbffe65c6

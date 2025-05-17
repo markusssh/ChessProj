@@ -9,20 +9,20 @@
 
 class PieceFactory {
 public:
-    static std::unique_ptr<Piece> createPiece(const Piece::PieceType type) {
+    static std::unique_ptr<Piece> createPiece(const Piece::PieceType type, const Piece::Color color) {
         switch (type) {
             case Piece::PAWN:
-                return std::make_unique<Pawn>();
+                return std::make_unique<Pawn>(color);
             case Piece::ROOK:
-                return std::make_unique<Rook>();
+                return std::make_unique<Rook>(color);
             case Piece::BISHOP:
-                return std::make_unique<Bishop>();
+                return std::make_unique<Bishop>(color);
             case Piece::KNIGHT:
-                return std::make_unique<Knight>();
+                return std::make_unique<Knight>(color);
             case Piece::QUEEN:
-                return std::make_unique<Queen>();
+                return std::make_unique<Queen>(color);
             case Piece::KING:
-                return std::make_unique<King>();
+                return std::make_unique<King>(color);
             default: return nullptr;
         }
     }
