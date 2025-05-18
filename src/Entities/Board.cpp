@@ -83,7 +83,7 @@ bool Board::isOpponentPiece(const Position &pos, Piece::Color playerColor) const
     }
 
     const Piece *piece = getPieceAt(pos);
-    return piece != nullptr && piece->getColor() == playerColor;
+    return piece != nullptr && piece->getColor() != playerColor;
 }
 
 void Board::movePiece(const Position &from, const Position &to) {
